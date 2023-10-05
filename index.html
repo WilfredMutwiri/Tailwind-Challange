@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="public/style.css" rel="stylesheet">
+    <title> cytonn tailwind challange </title>
+</head>
+<body>
+    <!--header beginning-->
+    <header>
+        <div><!--header holder-->
+            <div class="flex justify-between bg-blue-500 p-5 h-16 text-white text-lg"><!--invitation text-->
+                <div>
+                    <p>Looking for a home? We got you covered! <a href="#" class="font-bold hover:text-orange-500">Learn More</a> about our offers</p>
+                </div>
+                <div><p class="hover:text-orange-500">X</p></div>
+            </div>
+            <div><!--navbar-->
+                <div class="flex bg-gray-950 justify-between p-8 h-auto">
+                    <div>
+                        <img class="w-36 " src="public/images/logo.png">
+                    </div>
+                    <div>
+                    <nav>
+                        <ul class="flex">
+                            <li class="navLink"><a href="#">THE FIRM</a></li>
+                            <li class="navLink"><a href="#">PRODUCT</a></li>
+                            <li class="navLink"><a href="#">MEDIA</a></li>
+                            <li class="navLink"><a href="#">SUPPORT</a></li>
+                            <li class="navLink"><a href="#">EXPLORE</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                </div>
+            </div>
+            <div class="h-full">
+            <div
+            class="w-full h-4/5 bg-no-repeat bg-cover bg-center absolute"
+            style="background-image:url(public/images/banner2.jpeg);"
+            >
+            </div>
+            <div class=" flex relative pt-72 pl-20 justify-between">
+                <div>
+                <p class="text-white text-5xl leading-normal font-semibold ">
+                    We are focused on delivering<br>investment grade real estate to<br>
+                    our clients
+                </p>
+            </div>
+            <div class="w-auto h-auto mr-20 bg-gray-50"><!--home search form-->
+                <h3 class="homeSearchH3">FIND A DREAM HOME</h3>
+                <form class="p-4">
+                    <div class="flex">
+                        <div><input type="text" placeholder="All actions" class="formInput"></div>
+                        <div><input type="text" placeholder="All Types" class="formInput"></div>
+                    </div>
+                    <div class="flex">
+                        <div><input type="text" placeholder="All Locations" class="formInput"></div>
+                        <div><input type="text" placeholder="All Cities" class="formInput"></div>
+                    </div>
+                    <div class="flex">
+                        <div><input type="text" placeholder="Min Size" class="formInput"></div>
+                        <div><input type="text" placeholder="Garage Size" class="formInput"></div>
+                    </div>
+                    <div class="pt-5">
+                        <p class="text-gray-500 text-sm">Price Range:<span class="text-orange-600"> 100,000.00</span></p>
+                        <hr class="h-1 bg-gray-500">
+                        <p class="text-gray-500 text-xs pt-5 pb-5">More Search Options</p>
+                        <button class="formBtn" id="formBtn">FILTER HOMES</button>
+                    </div>
+                </form>
+            </div>
+            </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
