@@ -17,3 +17,9 @@
 #formBtn{
     @apply hover:text-orange-600 border-orange-600 border-2
 }
+.aboutBtn{
+    @apply text-gray-950 border-2 border-gray-600 p-4 rounded-full w-48 h-auto mt-10 font-light
+}
+#aboutBtn{
+    @apply hover:bg-orange-500 hover:text-white
+}
